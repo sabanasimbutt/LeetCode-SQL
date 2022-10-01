@@ -41,3 +41,21 @@ Select          firstName,
 From            Person a
 Left join       Address b
 On              a.personId = b.personId;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

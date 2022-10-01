@@ -36,3 +36,19 @@ Select          product_id,
                 store3 price
 From            Products
 Where           store3 is not null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -36,3 +36,27 @@ Left join       Transactions b
 On              a.visit_id = b.visit_id
 Where           b.transaction_id is null
 Group by        1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

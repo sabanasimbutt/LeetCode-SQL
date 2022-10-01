@@ -25,3 +25,29 @@ Left join       Weather b
 On              (a.id - 1) = b.id
 Where           b.id is not null
 And             (a.temperature - b.temperature) > 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
