@@ -19,12 +19,20 @@
 # -------------------------------------------------------------------------------------------
 
 
-Select          a.id
+Select          b.id
 From            Weather a
-Left join       Weather b
-On              (a.id - 1) = b.id
-Where           b.id is not null
-And             (a.temperature - b.temperature) > 0;
+Inner join      Weather b
+On              a.recordDate = (b.recordDate - interval 1 day)
+Where           a.temperature < b.temperature;
+
+
+
+
+
+
+
+
+
 
 
 
